@@ -2,7 +2,6 @@
 #ansible-playbook  /home/ansibleuser/Desktop/testplaybook1.yaml
 #ansible-playbook  testplaybook2.yaml  --user=andr9996 --ask-pass
 #cd /etc/ansible/hosts
-#- hosts: 10.222.101.1
 #- hosts: RGS_FWs
 - name: configure asa5506
   hosts: RGS_FWs
@@ -21,9 +20,6 @@
 #  gather_facts: false
 #
 
-#    cli:
-#      authorize: yes
-#      auth_pass: rack9155
 #
 #  tasks:
 #    - name: send commands
